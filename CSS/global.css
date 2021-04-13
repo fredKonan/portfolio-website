@@ -1,11 +1,4 @@
-/* Global html rule*/
-html,body{
-    box-sizing: border-box;
-    font-size: 62.5px;
-}
-
-
-/* Color Pick */
+/* color Picker*/
 :root{
     --secondary-color:#eb3f3f;
     --primary-color:#004c8f;
@@ -15,7 +8,71 @@ html,body{
   --gradient-color: linear-gradient(60deg, #4458dc 0%, #854fee 100%);
   --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  
 
 /* Font family Variable*/
 --roboto:"roboto",sans-serif;
+}
+
+/* Global html rule*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: var(--roboto);
+    color:var(--text-color);
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+h4{
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+    
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    margin-top: 0;
+    color:var(--text-color);
+}
+@media screen and (min-width:1024px){
+    body{
+        font-size: 1.8rem;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+
+}
+
+.text-uppercase{
+    text-transform: uppercase;
 }
