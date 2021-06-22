@@ -16,28 +16,42 @@
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-    <sectio class="container">
+<nav class="nav collapsible collapsible--expanded">
+    <a href="/"><img src="/IMAGE/logo3.png" alt="logo"></a>
+    <svg class="icon nav__toggle collapsible__menu">
+        <use xlink:href="IMAGE/sprite.svg#menu"></use>
+    </svg>
+    <ul class="list nav__list collapsible__content">
+        <li class="nav__items"><a href="#">home</a></li>
+        <li class="nav__items"><a href="#">about</a></li>
+        <li class="nav__items"><a href="#">services</a></li>
+        <li class="nav__items"><a href="#">Portfolio</a></li>
+        <li class="nav__items"><a href="#">pages</a></li>
+        <li class="nav__items"><a href="#">blog</a></li>
+        <li class="nav__items"><a href="#">contact</a></li>
+    </ul>
+</nav>
+    <section class="container">
         <div class="banner">
             <div class="banner__text">
-               <div class="banner__content">
-                   <h3>Hey  ----------------------</h3>
-                   <h2 class="text-uppercase">i am Botiwa</h2>
-                   <h4 class="text-uppercase">Junior Software Developer</h4>
-               </div>
-               <div class="button">
-                   <button type="button" class="btn btn--primary text-uppercase">hire me</button>
-                   <button type="buttom" class="btn btn--secondary text-uppercase">get cv</button>
-               </div>
+                <div class="banner__content">
+                    <h3>Hey ----------------------</h3>
+                    <h2 class="text-uppercase">i am Botiwa</h2>
+                    <h4 class="text-uppercase">Junior Software Developer</h4>
+                </div>
+                <div class="button">
+                    <button type="button" class="btn btn--primary text-uppercase">hire me</button>
+                    <button type="buttom" class="btn btn--secondary text-uppercase">get cv</button>
+                </div>
             </div>
             <div class="banner_image">
                 <img src="/IMAGE/final-banner.png" class="banner-image" alt="banner image">
             </div>
         </div>
-    </sectio>
-     
+    </section>
     
     <!-- Jquery js file -->
-    <script src="/JS/jqurey.js"></script>
+    <script src="/JS/jqurey.3.6.0.js"></script>
 
     <!-- JS file -->
     <script src="/JS/index.js"></script>
